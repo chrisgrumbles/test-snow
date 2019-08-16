@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ScriptParameter" max_length="40" name="x_micr5_scriptexe_scriptparameter" type="collection">
+        <element label="Default Value" max_length="0" name="default_value" type="string"/>
+        <element label="Help Message" max_length="0" name="help_message" type="string"/>
+        <element label="Name" max_length="128" name="name" type="string"/>
+        <element label="Script" mandatory="true" max_length="32" name="script" reference="x_micr5_scriptexe_script" type="reference"/>
+        <index name="index">
+            <element name="script"/>
+        </index>
+    </element>
+</database>
