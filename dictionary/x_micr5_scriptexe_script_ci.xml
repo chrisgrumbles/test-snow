@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Script CI" max_length="40" name="x_micr5_scriptexe_script_ci" type="collection">
+        <element display="true" label="ci" mandatory="true" max_length="32" name="ci" reference="cmdb_ci" type="reference"/>
+        <element default="False" label="Include Child Tree" max_length="40" name="include_child_tree" type="boolean"/>
+        <element display="true" label="Script" mandatory="true" max_length="32" name="script" reference="x_micr5_scriptexe_script" type="reference"/>
+        <index name="index">
+            <element name="ci"/>
+        </index>
+        <index name="index2">
+            <element name="script"/>
+        </index>
+    </element>
+</database>

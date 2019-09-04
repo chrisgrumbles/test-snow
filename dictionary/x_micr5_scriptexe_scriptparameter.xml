@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="ScriptParameter" max_length="40" name="x_micr5_scriptexe_scriptparameter" type="collection">
-        <element label="Default Value" max_length="0" name="default_value" type="string"/>
-        <element label="Help Message" max_length="0" name="help_message" type="string"/>
+        <element label="Default Value" max_length="121" name="default_value" type="string"/>
+        <element choice="1" label="Field Type" max_length="32" name="fieldtype" reference="sys_glide_object" reference_qual="visible=true^EQ" reference_qual_condition="visible=true^EQ" type="reference">
+            <choice/>
+        </element>
+        <element label="Help Message" max_length="121" name="help_message" type="string"/>
         <element label="Name" max_length="128" name="name" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Required" max_length="40" name="required" type="boolean"/>
         <element label="Script" mandatory="true" max_length="32" name="script" reference="x_micr5_scriptexe_script" type="reference"/>
+        <element default="string" label="Type" mandatory="true" max_length="64" name="type" type="string"/>
         <index name="index">
+            <element name="fieldtype"/>
+        </index>
+        <index name="index2">
             <element name="script"/>
         </index>
     </element>
