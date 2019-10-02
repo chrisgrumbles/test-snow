@@ -42,6 +42,48 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>owner_group</element>
+            <position>3</position>
+            <sys_created_by>chgrum</sys_created_by>
+            <sys_created_on>2019-09-19 22:12:01</sys_created_on>
+            <sys_id>565dac301b4884140c1377bc1d4bcba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_micr5_scriptexe_script" sys_domain="global" view="Default view">420fc3c11b17f3000c1377bc1d4bcb96</sys_ui_section>
+            <sys_updated_by>chgrum</sys_updated_by>
+            <sys_updated_on>2019-09-19 22:12:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_groups</element>
+            <position>4</position>
+            <sys_created_by>chgrum</sys_created_by>
+            <sys_created_on>2019-09-19 23:16:26</sys_created_on>
+            <sys_id>f51c343c1bc884140c1377bc1d4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_micr5_scriptexe_script" sys_domain="global" view="Default view">420fc3c11b17f3000c1377bc1d4bcb96</sys_ui_section>
+            <sys_updated_by>chgrum</sys_updated_by>
+            <sys_updated_on>2019-09-19 23:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>execute_as</element>
+            <position>5</position>
+            <sys_created_by>chgrum</sys_created_by>
+            <sys_created_on>2019-09-25 18:48:01</sys_created_on>
+            <sys_id>5438faee1b4840500c1377bc1d4bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_micr5_scriptexe_script" sys_domain="global" view="Default view">420fc3c11b17f3000c1377bc1d4bcb96</sys_ui_section>
+            <sys_updated_by>chgrum</sys_updated_by>
+            <sys_updated_on>2019-09-25 18:48:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

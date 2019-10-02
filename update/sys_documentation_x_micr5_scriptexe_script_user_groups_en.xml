@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="ci" label="CI" language="en" table="x_micr5_scriptexe_script_ci">
+    <sys_documentation element="user_groups" label="User Groups" language="en" table="x_micr5_scriptexe_script">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>ci</element>
+            <element>user_groups</element>
             <help/>
             <hint/>
-            <label>CI</label>
+            <label>User Groups</label>
             <language>en</language>
-            <name>x_micr5_scriptexe_script_ci</name>
-            <plural>CIs</plural>
+            <name>x_micr5_scriptexe_script</name>
+            <plural>User Groups</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>chgrum</sys_created_by>
-            <sys_created_on>2019-09-04 16:50:19</sys_created_on>
+            <sys_created_on>2019-09-19 23:16:28</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>2fd3d6bf1b2777400c1377bc1d4bcb0c</sys_id>
+            <sys_id>261c343c1bc884140c1377bc1d4bcbd2</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>CI</sys_name>
+            <sys_name>User Groups</sys_name>
             <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
-            <sys_update_name>sys_documentation_x_micr5_scriptexe_script_ci_ci_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_micr5_scriptexe_script_user_groups_en</sys_update_name>
             <sys_updated_by>chgrum</sys_updated_by>
-            <sys_updated_on>2019-09-04 16:50:19</sys_updated_on>
+            <sys_updated_on>2019-09-19 23:16:28</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

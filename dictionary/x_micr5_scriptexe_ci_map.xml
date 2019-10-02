@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="CI Map" max_length="40" name="x_micr5_scriptexe_ci_map" type="collection">
+        <element display="true" label="CI" mandatory="true" max_length="32" name="ci" reference="cmdb_ci" type="reference"/>
+        <element label="Script Owner Group" max_length="32" name="script_owner_group" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="script_owner_group"/>
+        </index>
+        <index name="index2">
+            <element name="ci"/>
+        </index>
+    </element>
+</database>

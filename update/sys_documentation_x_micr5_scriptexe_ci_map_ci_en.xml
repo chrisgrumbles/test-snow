@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="script" label="Script" language="en" table="x_micr5_scriptexe_script_ci">
+    <sys_documentation element="ci" label="CI" language="en" table="x_micr5_scriptexe_ci_map">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>script</element>
+            <element>ci</element>
             <help/>
             <hint/>
-            <label>Script</label>
+            <label>CI</label>
             <language>en</language>
-            <name>x_micr5_scriptexe_script_ci</name>
-            <plural>Scripts</plural>
+            <name>x_micr5_scriptexe_ci_map</name>
+            <plural>CIs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>chgrum</sys_created_by>
-            <sys_created_on>2019-09-04 16:51:00</sys_created_on>
+            <sys_created_on>2019-09-19 23:11:37</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>a9049e7f1b2777400c1377bc1d4bcba6</sys_id>
+            <sys_id>5ffa38f41bc884140c1377bc1d4bcbb0</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Script</sys_name>
+            <sys_name>CI</sys_name>
             <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
-            <sys_update_name>sys_documentation_x_micr5_scriptexe_script_ci_script_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_micr5_scriptexe_ci_map_ci_en</sys_update_name>
             <sys_updated_by>chgrum</sys_updated_by>
-            <sys_updated_on>2019-09-04 16:51:00</sys_updated_on>
+            <sys_updated_on>2019-09-19 23:11:37</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

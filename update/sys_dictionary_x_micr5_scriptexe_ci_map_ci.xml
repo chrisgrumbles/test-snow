@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="ci" table="x_micr5_scriptexe_script_ci">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="ci" table="x_micr5_scriptexe_ci_map">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>ci</column_label>
+        <column_label>CI</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -35,7 +35,7 @@
         <internal_type display_value="Reference">reference</internal_type>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <name>x_micr5_scriptexe_script_ci</name>
+        <name>x_micr5_scriptexe_ci_map</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,18 +52,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2019-09-04 16:50:19</sys_created_on>
+        <sys_created_on>2019-09-19 23:11:37</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>8b635e7f1b2777400c1377bc1d4bcb25</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>ci</sys_name>
+        <sys_id>c4da74381bc884140c1377bc1d4bcbea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CI</sys_name>
         <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
-        <sys_update_name>sys_dictionary_x_micr5_scriptexe_script_ci_ci</sys_update_name>
+        <sys_update_name>sys_dictionary_x_micr5_scriptexe_ci_map_ci</sys_update_name>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2019-09-04 16:50:19</sys_updated_on>
+        <sys_updated_on>2019-09-19 23:11:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
