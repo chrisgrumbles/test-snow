@@ -84,6 +84,62 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>keyvault_credential_uri</element>
+            <position>6</position>
+            <sys_created_by>chgrum</sys_created_by>
+            <sys_created_on>2019-10-24 17:07:29</sys_created_on>
+            <sys_id>d2477bb71b640c940c1377bc1d4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_micr5_scriptexe_script" sys_domain="global" view="Default view">420fc3c11b17f3000c1377bc1d4bcb96</sys_ui_section>
+            <sys_updated_by>chgrum</sys_updated_by>
+            <sys_updated_on>2019-10-24 17:07:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credential_type</element>
+            <position>7</position>
+            <sys_created_by>chgrum</sys_created_by>
+            <sys_created_on>2019-10-24 17:12:12</sys_created_on>
+            <sys_id>a35873b71b640c940c1377bc1d4bcb50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_micr5_scriptexe_script" sys_domain="global" view="Default view">420fc3c11b17f3000c1377bc1d4bcb96</sys_ui_section>
+            <sys_updated_by>chgrum</sys_updated_by>
+            <sys_updated_on>2019-10-24 17:12:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credential_username</element>
+            <position>8</position>
+            <sys_created_by>chgrum</sys_created_by>
+            <sys_created_on>2019-10-24 17:29:04</sys_created_on>
+            <sys_id>fa3cbfbb1ba40c940c1377bc1d4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_micr5_scriptexe_script" sys_domain="global" view="Default view">420fc3c11b17f3000c1377bc1d4bcb96</sys_ui_section>
+            <sys_updated_by>chgrum</sys_updated_by>
+            <sys_updated_on>2019-10-24 17:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>keyvault_credential_name</element>
+            <position>9</position>
+            <sys_created_by>chgrum</sys_created_by>
+            <sys_created_on>2019-11-07 20:34:39</sys_created_on>
+            <sys_id>a9fc2c241b49481c0c1377bc1d4bcbdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_micr5_scriptexe_script" sys_domain="global" view="Default view">420fc3c11b17f3000c1377bc1d4bcb96</sys_ui_section>
+            <sys_updated_by>chgrum</sys_updated_by>
+            <sys_updated_on>2019-11-07 20:34:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

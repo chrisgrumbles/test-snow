@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Script" max_length="40" name="x_micr5_scriptexe_script" type="collection">
         <element label="Approval Group" max_length="32" name="approval_group" reference="sys_user_group" type="reference"/>
-        <element label="Execute As" max_length="32" name="execute_as" reference="discovery_credentials" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element choice="1" label="Credential Type" max_length="50" name="credential_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AzureAD Application" value="aad_app"/>
+                <element inactive_on_update="false" label="Windows Service Account" value="windows_creds"/>
+            </choice>
+        </element>
+        <element label="Credential Username" max_length="255" name="credential_username" type="string"/>
+        <element label="KeyVault Credential Name" max_length="255" name="keyvault_credential_name" type="string"/>
         <element display="true" label="Name" max_length="255" name="name" type="string"/>
         <element label="Owner Group" mandatory="true" max_length="32" name="owner_group" reference="sys_user_group" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Script" max_length="4000" name="script" type="script_server"/>
         <element label="User Groups" mandatory="true" max_length="4000" name="user_groups" reference="sys_user_group" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
         <index name="index">
-            <element name="execute_as"/>
-        </index>
-        <index name="index2">
             <element name="approval_group"/>
         </index>
-        <index name="index3">
+        <index name="index2">
             <element name="owner_group"/>
         </index>
     </element>
