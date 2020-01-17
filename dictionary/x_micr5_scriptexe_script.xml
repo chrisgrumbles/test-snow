@@ -11,6 +11,12 @@
         <element label="KeyVault Credential Name" max_length="255" name="keyvault_credential_name" type="string"/>
         <element display="true" label="Name" max_length="255" name="name" type="string"/>
         <element label="Owner Group" mandatory="true" max_length="32" name="owner_group" reference="sys_user_group" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element choice="1" default="remote_server" label="PSSession Mode" mandatory="true" max_length="40" name="pssession_mode" type="choice">
+            <choice>
+                <element hint="Session is started on the remote server and the script is run inside the session" inactive_on_update="false" label="Remote Server" sequence="100" value="remote_server"/>
+                <element hint="Executed on the midserver directly. Configured credentials are available using the $cred variable in your script. Server selection (CI Mapping) is not available." inactive_on_update="false" label="Midserver (Corpnet) Execution" sequence="200" value="midserver"/>
+            </choice>
+        </element>
         <element label="Script" max_length="4000" name="script" type="script_server"/>
         <element label="User Groups" mandatory="true" max_length="4000" name="user_groups" reference="sys_user_group" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
         <index name="index">

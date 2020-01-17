@@ -140,6 +140,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>execute_on</element>
+            <position>10</position>
+            <sys_created_by>chgrum</sys_created_by>
+            <sys_created_on>2020-01-15 07:51:57</sys_created_on>
+            <sys_id>4a1451eedb9ac8901ed83c9968961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_micr5_scriptexe_script" sys_domain="global" view="Default view">420fc3c11b17f3000c1377bc1d4bcb96</sys_ui_section>
+            <sys_updated_by>chgrum</sys_updated_by>
+            <sys_updated_on>2020-01-15 07:51:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pssession_mode</element>
+            <position>11</position>
+            <sys_created_by>chgrum</sys_created_by>
+            <sys_created_on>2020-01-15 07:53:10</sys_created_on>
+            <sys_id>335419eedb9ac8901ed83c9968961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_micr5_scriptexe_script" sys_domain="global" view="Default view">420fc3c11b17f3000c1377bc1d4bcb96</sys_ui_section>
+            <sys_updated_by>chgrum</sys_updated_by>
+            <sys_updated_on>2020-01-15 07:53:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category display_value="Setup Topics">5628e7f27373230025d032e954f6a7de</category>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.13",
+  "goals": {
+    "ad67dde8e8544158800bf4f2d182eba9": {
+      "id": "ad67dde8e8544158800bf4f2d182eba9",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "78869628ab9d42c09e2365dc9d65fe10": {
+          "id": "78869628ab9d42c09e2365dc9d65fe10",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "c384d20f5da14bce9dd4a64de25e0621": {
+          "id": "c384d20f5da14bce9dd4a64de25e0621",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "8ba14b0ca46c49c6a9a6f77d9307e63b": {
+          "id": "8ba14b0ca46c49c6a9a6f77d9307e63b",
+          "stepType": "Prompt",
+          "name": "1. Y",
+          "prompt": {
+            "value": "Y",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "bdbc826337314d79a7e22d3a4688c729"
+        },
+        "9cc5c8559e1c4cd49f9401c625ef6792": {
+          "id": "9cc5c8559e1c4cd49f9401c625ef6792",
+          "stepType": "Decision",
+          "name": "1. if Y"
+        },
+        "790972aea2d34bdc9d15180fc273c760": {
+          "id": "790972aea2d34bdc9d15180fc273c760",
+          "stepType": "TextOutput",
+          "name": "2. Y",
+          "value": {
+            "value": "Y",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "1_y=true",
+            "mode": "query"
+          }
+        },
+        "b9eca1a486fa4c9e9429ce26f2b4d9a9": {
+          "id": "b9eca1a486fa4c9e9429ce26f2b4d9a9",
+          "stepType": "TextOutput",
+          "name": "2. N",
+          "value": {
+            "value": "N",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "1_y=",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "6c6f2c4f54fe4f73abeffc74a88fd57d",
+          "edgeType": "Edge",
+          "source": "78869628ab9d42c09e2365dc9d65fe10",
+          "target": "8ba14b0ca46c49c6a9a6f77d9307e63b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7fc3e4229801424db12d87ac1544025a",
+          "edgeType": "Edge",
+          "source": "8ba14b0ca46c49c6a9a6f77d9307e63b",
+          "target": "9cc5c8559e1c4cd49f9401c625ef6792",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "216d9989c6ca42cf9bc84f7c6fd7cdfe",
+          "edgeType": "Branch",
+          "source": "9cc5c8559e1c4cd49f9401c625ef6792",
+          "target": "790972aea2d34bdc9d15180fc273c760",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "y=true",
+            "mode": "query"
+          },
+          "label": "Y"
+        },
+        {
+          "id": "e69bba4595a44774b3c2a3c63301473a",
+          "edgeType": "Edge",
+          "source": "790972aea2d34bdc9d15180fc273c760",
+          "target": "c384d20f5da14bce9dd4a64de25e0621",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9a51f38bc3bb47208ff30b5e0e372dba",
+          "edgeType": "Branch",
+          "source": "9cc5c8559e1c4cd49f9401c625ef6792",
+          "target": "b9eca1a486fa4c9e9429ce26f2b4d9a9",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "1_y=false",
+            "mode": "query"
+          },
+          "label": "N"
+        },
+        {
+          "id": "b6c9706f9ad14bb5b5c84366223f1e72",
+          "edgeType": "Edge",
+          "source": "b9eca1a486fa4c9e9429ce26f2b4d9a9",
+          "target": "c384d20f5da14bce9dd4a64de25e0621",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "bdbc826337314d79a7e22d3a4688c729": {
+      "id": "bdbc826337314d79a7e22d3a4688c729",
+      "name": "1_y",
+      "label": "1. Y",
+      "varType": "boolean",
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Test Topic Failure 2</key_phrases>
+        <live_agent>false</live_agent>
+        <name>Test Topic Failure 2</name>
+        <nlu_intent/>
+        <nlu_model/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2019-12-20 18:01:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>8336e5dadb3d00d01ed83c99689619b7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Test Topic Failure 2</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_update_name>sys_cb_topic_8336e5dadb3d00d01ed83c99689619b7</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2019-12-20 18:03:41</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=8336e5dadb3d00d01ed83c99689619b7"/>
+</record_update>
