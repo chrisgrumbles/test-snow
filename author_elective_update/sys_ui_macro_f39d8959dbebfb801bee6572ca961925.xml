@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <description>Test Dynamic Field Generation</description>
+        <media_type/>
+        <name>Test Dynamic Fields</name>
+        <scoped_name>x_micr5_scriptexe_Test Dynamic Fields</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2019-08-27 17:19:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f39d8959dbebfb801bee6572ca961925</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Test Dynamic Fields</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_update_name>sys_ui_macro_f39d8959dbebfb801bee6572ca961925</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2019-08-27 17:31:16</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<h3>Test Dynamic Fields Widget Value:</h3>
+	<input type="text" id="field1val" value=""/>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</application>
+        <file_path/>
+        <instance_id>704407766f4f39404c327b2f5d3ee4ad</instance_id>
+        <instance_name>microsoftdev</instance_name>
+        <name>sys_ui_macro_f39d8959dbebfb801bee6572ca961925</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;
+    &lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;category&gt;general&lt;/category&gt;
+        &lt;description&gt;Test Dynamic Field Generation&lt;/description&gt;
+        &lt;media_type/&gt;
+        &lt;name&gt;Test Dynamic Fields&lt;/name&gt;
+        &lt;scoped_name&gt;x_micr5_scriptexe_Test Dynamic Fields&lt;/scoped_name&gt;
+        &lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;chgrum&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-08-27 17:19:00&lt;/sys_created_on&gt;
+        &lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+        &lt;sys_id&gt;f39d8959dbebfb801bee6572ca961925&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Test Dynamic Fields&lt;/sys_name&gt;
+        &lt;sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe"&gt;98e48f851bd3f3000c1377bc1d4bcb29&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+        &lt;sys_scope display_value="Script Execution Platform"&gt;98e48f851bd3f3000c1377bc1d4bcb29&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_ui_macro_f39d8959dbebfb801bee6572ca961925&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;chgrum&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-08-27 17:31:16&lt;/sys_updated_on&gt;
+        &lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;h3&gt;Test Dynamic Fields Widget Value:&lt;/h3&gt;
+	&lt;input type="text" id="field1val" value=""/&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/xml&gt;
+    &lt;/sys_ui_macro&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>490336358</payload_hash>
+        <record_name>Test Dynamic Fields</record_name>
+        <reverted_from/>
+        <source>af7f5b36dbea88d4b720f33768961957</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-28 22:55:31</sys_created_on>
+        <sys_id>649f5776dbea88d4b720f33768961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fee5deef40000001</sys_recorded_at>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-28 22:55:31</sys_updated_on>
+        <type>Macro</type>
+        <update_guid>249f57768eea88d423768bf3bf6da001</update_guid>
+        <update_guid_history>249f57768eea88d423768bf3bf6da001:490336358</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-29 01:11:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_macro">sys_ui_macro</sys_db_object>
+        <sys_id>32a02ca5c85444c8aa47132e4c29dc40</sys_id>
+        <sys_metadata>f39d8959dbebfb801bee6572ca961925</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Dynamic Fields</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_scope_delete display_value="">3e0eef3de88f4b00b828da12a7677840</sys_scope_delete>
+        <sys_update_name>sys_ui_macro_f39d8959dbebfb801bee6572ca961925</sys_update_name>
+        <sys_update_version display_value="sys_ui_macro_f39d8959dbebfb801bee6572ca961925">649f5776dbea88d4b720f33768961901</sys_update_version>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-29 01:11:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

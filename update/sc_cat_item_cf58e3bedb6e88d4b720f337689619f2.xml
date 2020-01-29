@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>Execute a powershell script on a remote server, or run a script for an existing incident</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Execute Powershell Script</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=cf58e3bedb6e88d4b720f337689619f2&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles>itil</roles>
+        <sc_catalogs>a3b4d529136eea002620b0912244b095</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>Execute a Powershell Script</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-28 23:35:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cf58e3bedb6e88d4b720f337689619f2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Execute Powershell Script</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_update_name>sc_cat_item_cf58e3bedb6e88d4b720f337689619f2</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-29 01:44:18</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <u_accepted_file_types/>
+        <u_access_level>Internal</u_access_level>
+        <u_assignment_group/>
+        <u_assignment_group_1/>
+        <u_assignment_group_2/>
+        <u_assignment_group_3/>
+        <u_assignment_group_4/>
+        <u_assignment_group_5/>
+        <u_assignment_group_6/>
+        <u_configuration_item/>
+        <u_generic>false</u_generic>
+        <u_group/>
+        <u_group_approval/>
+        <u_manager_approval>false</u_manager_approval>
+        <u_owner display_value="Chris Grumbles">d3eea2196ff682001b4f3bcabb3ee4cc</u_owner>
+        <u_quickitem_type/>
+        <u_send_ritm_resolution_email>true</u_send_ritm_resolution_email>
+        <u_task_description_1/>
+        <u_task_description_2/>
+        <u_task_description_3/>
+        <u_task_description_4/>
+        <u_task_description_5/>
+        <u_task_description_6/>
+        <u_task_priority_1/>
+        <u_task_priority_2/>
+        <u_task_priority_3/>
+        <u_task_priority_4/>
+        <u_task_priority_5/>
+        <u_task_priority_6/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Catalog Item: Execute Powershell Script">2f73404bdb26c8d4b720f3376896195d</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf58e3bedb6e88d4b720f337689619f2"/>
+    <fx_price action="delete_multiple" query="id=cf58e3bedb6e88d4b720f337689619f2"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>cf58e3bedb6e88d4b720f337689619f2</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-28 23:35:26</sys_created_on>
+        <sys_id>d1b8affedb6e88d4b720f33768961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-28 23:35:26</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>cf58e3bedb6e88d4b720f337689619f2</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-28 23:35:26</sys_created_on>
+        <sys_id>d1b8affedb6e88d4b720f33768961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-28 23:35:26</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

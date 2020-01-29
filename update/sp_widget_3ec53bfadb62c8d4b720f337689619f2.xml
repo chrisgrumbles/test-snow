@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+  /* widget controller */
+	var c = this;
+	var targetFieldName = "script_parameters";	
+	
+	$scope.$watch(function() {
+		return $scope.page.g_form.getValue('script');
+	}, function(value) {
+		c.data.scriptId = value;
+		c.server.update();		
+	});
+	
+	c.updateTargetField = function() {
+		$scope.page.g_form.setValue(targetFieldName, JSON.stringify(c.data.scriptParameters));
+	};	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>dynpsfields</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) { 
+
+ }]]></link>
+        <name>Dynamic Powershell Fields</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	var sourceFieldName = "script";
+	var targetFieldName = "script_parameters";	
+	
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	if(input && input.scriptId!=null) 
+		data.scriptParameters = getScriptParameters(input.scriptId);
+	
+	function getScriptParameters(scriptId) {
+		var sc = new GlideRecord('x_micr5_scriptexe_scriptparameter');
+		sc.addActiveQuery();
+		sc.addQuery("script", scriptId);
+		sc.setLimit(50);
+		sc.orderBy("order");
+		sc.query();
+		var results = [];
+		while(sc.next()) {
+			if(!$sp.canReadRecord(sc)) continue;
+			var param = {
+				id: "x_micr5_"+sc.name.toString().replace(/\s/gi,"_"),
+				name: sc.name.toString(),
+				required: sc.required,
+				type: sc.type.toString(),
+				fieldtype: sc.fieldtype.getDisplayValue().toString(),
+				help_message: sc.help_message.toString() ,
+				default_value: sc.default_value.toString(),
+				value: sc.default_value.toString()
+			};
+			switch(param.fieldtype) {
+				case "String":
+					param.htmlFieldType = "text";
+					break;
+				case "True/False":
+					param.htmlFieldType = "checkbox";
+					break;
+			}
+			results.push(param);
+		}
+		return results;
+	}
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-29 00:34:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3ec53bfadb62c8d4b720f337689619f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Dynamic Powershell Fields</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_update_name>sp_widget_3ec53bfadb62c8d4b720f337689619f2</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-29 17:12:26</sys_updated_on>
+        <template><![CDATA[<div class="">
+ <div class="row form-group" ng-if="c.data.scriptParameters.length > 0">Script Parameters:</div>  
+ <div class="" ng-repeat="scriptParam in c.data.scriptParameters">
+   <div>    
+     <div class="form-group">
+       <div>
+         <label for="{{scriptParam.id}}">
+           [{{scriptParam.type}}] ${{scriptParam.name}}
+         </label>
+           <span ng-if="scriptParam.help_message!=null">
+             <br/>{{scriptParam.help_message}}
+           </span>
+         <div>  
+         	<input id="{{scriptParam.id}}" name="{{scriptParam.id}}" type="{{scriptParam.htmlFieldType}}" ng-model="scriptParam.value" ng-change="c.updateTargetField();" />
+         </div>
+       </div>
+     </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

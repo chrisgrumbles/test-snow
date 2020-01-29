@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="DELETE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <cb_topic_id display_value="Test Topic Failure 2">8336e5dadb3d00d01ed83c99689619b7</cb_topic_id>
+        <definition>{"id":"8336e5dadb3d00d01ed83c99689619b7","name":"Test Topic Failure 2","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Test Topic Failure 2","applicability":"true","category":"","key_phrases":["Test Topic Failure 2"],"variables":[{"name":"__segment_trigger_15fb0e1b01134abab3a5e49875b17559_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Boolean","name":"RootDecisionBranch_91804c433126c8d492e5fc04ef9b93f9","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_78869628ab9d42c09e2365dc9d65fe10","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_c384d20f5da14bce9dd4a64de25e0621","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_11804c436126c8d48ca87fe1189283f9","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_15fb0e1b01134abab3a5e49875b17559_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_91804c433126c8d492e5fc04ef9b93f9\");vaInputs.initialize(\"__silent_TerminateGoal_c384d20f5da14bce9dd4a64de25e0621\");vaInputs.initialize(\"__silent_StartGoal_78869628ab9d42c09e2365dc9d65fe10\");vaInputs.initialize(\"__silent_Decision_RootDecision_11804c436126c8d48ca87fe1189283f9\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9\");null;","fields":[{"name":"__silent_Decision_RootDecision_11804c436126c8d48ca87fe1189283f9","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_11804c436126c8d48ca87fe1189283f9\";vaInputs.__silent_Decision_RootDecision_11804c436126c8d48ca87fe1189283f9=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_11804c436126c8d48ca87fe1189283f9\";vaInputs.RootDecisionBranch_91804c433126c8d492e5fc04ef9b93f9=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_11804c436126c8d48ca87fe1189283f9\" &amp;&amp; ((vaInputs.RootDecisionBranch_91804c433126c8d492e5fc04ef9b93f9.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9___RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9\";vaInputs.__silent_Branch_RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9___RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9\";null;"},{"name":"__silent_StartGoal_78869628ab9d42c09e2365dc9d65fe10","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9___RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___78869628ab9d42c09e2365dc9d65fe10\";vaInputs.__silent_StartGoal_78869628ab9d42c09e2365dc9d65fe10=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___78869628ab9d42c09e2365dc9d65fe10\";null;"},{"name":"__silent_TerminateGoal_c384d20f5da14bce9dd4a64de25e0621","applicable":"vaVars.previous_graph_node==\"Start___78869628ab9d42c09e2365dc9d65fe10\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___c384d20f5da14bce9dd4a64de25e0621\";vaInputs.__silent_TerminateGoal_c384d20f5da14bce9dd4a64de25e0621=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___c384d20f5da14bce9dd4a64de25e0621\";vaVars.__segment_trigger_15fb0e1b01134abab3a5e49875b17559_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"flexible_conversation_switching":false,"design_category":"","nlu_provider":"","nlu_model":"","nlu_intent":"","score":0.0,"visible":true,"sys_scope":"98e48f851bd3f3000c1377bc1d4bcb29","title":"Test Topic Failure 2"}</definition>
+        <design_category/>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Test Topic Failure 2</key_phrases>
+        <metaphone> TST FLR TPK</metaphone>
+        <name>Test Topic Failure 2</name>
+        <nlu_intent/>
+        <nlu_model/>
+        <nlu_provider/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-29 01:19:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>1d804c43db26c8d4b720f337689619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Topic Failure 2</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_update_name>sys_cs_topic_1d804c43db26c8d4b720f337689619f9</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-29 01:19:28</sys_updated_on>
+        <title>Test Topic Failure 2</title>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="DELETE" query="document_key=1d804c43db26c8d4b720f337689619f9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</application>
+        <file_path/>
+        <instance_id>704407766f4f39404c327b2f5d3ee4ad</instance_id>
+        <instance_name>microsoftdev</instance_name>
+        <name>sys_cs_topic_1d804c43db26c8d4b720f337689619f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic"><sys_cs_topic action="INSERT_OR_UPDATE"><active>true</active><applicability>true</applicability><cb_topic_id display_value="Test Topic Failure 2">8336e5dadb3d00d01ed83c99689619b7</cb_topic_id><definition>{"id":"8336e5dadb3d00d01ed83c99689619b7","name":"Test Topic Failure 2","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Test Topic Failure 2","applicability":"true","category":"","key_phrases":["Test Topic Failure 2"],"variables":[{"name":"__segment_trigger_15fb0e1b01134abab3a5e49875b17559_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Boolean","name":"RootDecisionBranch_91804c433126c8d492e5fc04ef9b93f9","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_78869628ab9d42c09e2365dc9d65fe10","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_c384d20f5da14bce9dd4a64de25e0621","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_11804c436126c8d48ca87fe1189283f9","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_15fb0e1b01134abab3a5e49875b17559_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_91804c433126c8d492e5fc04ef9b93f9\");vaInputs.initialize(\"__silent_TerminateGoal_c384d20f5da14bce9dd4a64de25e0621\");vaInputs.initialize(\"__silent_StartGoal_78869628ab9d42c09e2365dc9d65fe10\");vaInputs.initialize(\"__silent_Decision_RootDecision_11804c436126c8d48ca87fe1189283f9\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9\");null;","fields":[{"name":"__silent_Decision_RootDecision_11804c436126c8d48ca87fe1189283f9","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_11804c436126c8d48ca87fe1189283f9\";vaInputs.__silent_Decision_RootDecision_11804c436126c8d48ca87fe1189283f9=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_11804c436126c8d48ca87fe1189283f9\";vaInputs.RootDecisionBranch_91804c433126c8d492e5fc04ef9b93f9=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_11804c436126c8d48ca87fe1189283f9\" &amp;&amp; ((vaInputs.RootDecisionBranch_91804c433126c8d492e5fc04ef9b93f9.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9___RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9\";vaInputs.__silent_Branch_RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9___RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9\";null;"},{"name":"__silent_StartGoal_78869628ab9d42c09e2365dc9d65fe10","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9___RootDecisionBranch_51804c436226c8d4ce687d62caf3b2f9\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___78869628ab9d42c09e2365dc9d65fe10\";vaInputs.__silent_StartGoal_78869628ab9d42c09e2365dc9d65fe10=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___78869628ab9d42c09e2365dc9d65fe10\";null;"},{"name":"__silent_TerminateGoal_c384d20f5da14bce9dd4a64de25e0621","applicable":"vaVars.previous_graph_node==\"Start___78869628ab9d42c09e2365dc9d65fe10\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___c384d20f5da14bce9dd4a64de25e0621\";vaInputs.__silent_TerminateGoal_c384d20f5da14bce9dd4a64de25e0621=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___c384d20f5da14bce9dd4a64de25e0621\";vaVars.__segment_trigger_15fb0e1b01134abab3a5e49875b17559_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"flexible_conversation_switching":false,"design_category":"","nlu_provider":"","nlu_model":"","nlu_intent":"","score":0.0,"visible":true,"sys_scope":"98e48f851bd3f3000c1377bc1d4bcb29","title":"Test Topic Failure 2"}</definition><design_category/><fields/><flexible_conversation_switching>false</flexible_conversation_switching><is_system_topic>false</is_system_topic><key_phrases>Test Topic Failure 2</key_phrases><metaphone> TST FLR TPK</metaphone><name>Test Topic Failure 2</name><nlu_intent/><nlu_model/><nlu_provider/><published>true</published><roles/><sys_class_name>sys_cs_topic</sys_class_name><sys_created_by>chgrum</sys_created_by><sys_created_on>2020-01-29 01:19:28</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>1d804c43db26c8d4b720f337689619f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test Topic Failure 2</sys_name><sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope><sys_update_name>sys_cs_topic_1d804c43db26c8d4b720f337689619f9</sys_update_name><sys_updated_by>chgrum</sys_updated_by><sys_updated_on>2020-01-29 01:19:28</sys_updated_on><title>Test Topic Failure 2</title><vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor><visible>true</visible></sys_cs_topic><sys_variable_value action="delete_multiple" query="document_key=1d804c43db26c8d4b720f337689619f9"/></record_update>]]></payload>
+        <payload_hash>-297634319</payload_hash>
+        <record_name>Test Topic Failure 2</record_name>
+        <reverted_from/>
+        <source>478f1b36dbea88d4b720f337689619e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-29 01:19:28</sys_created_on>
+        <sys_id>51808483db26c8d4b720f3376896194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16feee1bac60000001</sys_recorded_at>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-29 01:19:28</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>598084835c26c8d4d543f41f25cffc4b</update_guid>
+        <update_guid_history>598084835c26c8d4d543f41f25cffc4b:-297634319</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-29 01:19:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_cs_topic">sys_cs_topic</sys_db_object>
+        <sys_id>c10d5326be0244449ef81cb378609990</sys_id>
+        <sys_metadata>1d804c43db26c8d4b720f337689619f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Topic Failure 2</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_scope_delete display_value="">3e0eef3de88f4b00b828da12a7677840</sys_scope_delete>
+        <sys_update_name>sys_cs_topic_1d804c43db26c8d4b720f337689619f9</sys_update_name>
+        <sys_update_version display_value="sys_cs_topic_1d804c43db26c8d4b720f337689619f9">51808483db26c8d4b720f3376896194c</sys_update_version>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-29 01:19:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
