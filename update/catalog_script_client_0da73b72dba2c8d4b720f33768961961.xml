@@ -15,12 +15,12 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Hide Script Params</name>
+        <name>Init</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-   // Hide target field
+   // On load, we don't want script params or remote_host to show up   
 	g_form.setVisible('script_parameters',false);
+	g_form.setVisible('remote_host',false);
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>chgrum</sys_created_by>
@@ -29,8 +29,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0da73b72dba2c8d4b720f33768961961</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Hide Script Params</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Init</sys_name>
         <sys_overrides/>
         <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
         <sys_policy/>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
         <sys_update_name>catalog_script_client_0da73b72dba2c8d4b720f33768961961</sys_update_name>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 00:41:06</sys_updated_on>
+        <sys_updated_on>2020-01-29 20:36:18</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

@@ -25,7 +25,7 @@
    g_form.getReference('script', updateDeviceVisibility);   
 }
 
-function updateDeviceVisibility(scriptReference) {
+function updateDeviceVisibility(scriptReference) {	
 	if(typeof(scriptReference) !=='object') {
 		return;
 	}
@@ -33,10 +33,13 @@ function updateDeviceVisibility(scriptReference) {
 	
 	switch(scriptReference.pssession_mode.toString().toLowerCase()) {
 		case 'midserver':
+			visible = false;
 			break;
 		case 'remote_server':
-			break;
+			visible = true;
+			break;			
 	}	
+	g_form.setVisible('remote_host', visible);
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>chgrum</sys_created_by>
@@ -45,7 +48,7 @@ function updateDeviceVisibility(scriptReference) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>16b83736dba2c8d4b720f3376896191f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Device Visibility: Script PSSession Mode</sys_name>
         <sys_overrides/>
         <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
@@ -54,7 +57,7 @@ function updateDeviceVisibility(scriptReference) {
         <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
         <sys_update_name>catalog_script_client_16b83736dba2c8d4b720f3376896191f</sys_update_name>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 01:01:43</sys_updated_on>
+        <sys_updated_on>2020-01-29 20:34:27</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

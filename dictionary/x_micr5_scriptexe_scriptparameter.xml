@@ -9,6 +9,7 @@
         <element label="Order" max_length="40" name="order" type="integer"/>
         <element label="Required" max_length="40" name="required" type="boolean"/>
         <element label="Script" mandatory="true" max_length="32" name="script" reference="x_micr5_scriptexe_script" type="reference"/>
+        <element label="Synopsis" max_length="500" name="synopsis" type="string"/>
         <element default="string" label="Type" mandatory="true" max_length="64" name="type" type="string"/>
         <index name="index">
             <element name="fieldtype"/>

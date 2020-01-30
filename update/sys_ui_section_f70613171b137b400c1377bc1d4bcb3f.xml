@@ -112,6 +112,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>synopsis</element>
+            <position>8</position>
+            <sys_created_by>chgrum</sys_created_by>
+            <sys_created_on>2020-01-30 00:39:13</sys_created_on>
+            <sys_id>29e0c55bdbea4018b720f337689619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_micr5_scriptexe_scriptparameter" sys_domain="global" view="Default view">f70613171b137b400c1377bc1d4bcb3f</sys_ui_section>
+            <sys_updated_by>chgrum</sys_updated_by>
+            <sys_updated_on>2020-01-30 00:39:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

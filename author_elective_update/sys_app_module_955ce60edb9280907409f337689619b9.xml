@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Powershell Script Execution">195ec3051b17f3000c1377bc1d4bcbe3</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Configuration Items</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_micr5_scriptexe_ci_map</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-14 01:01:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>955ce60edb9280907409f337689619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Configuration Items</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_update_name>sys_app_module_955ce60edb9280907409f337689619b9</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-14 01:01:16</sys_updated_on>
+        <timeline_page/>
+        <title>Script Configuration Items</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</application>
+        <file_path/>
+        <instance_id>704407766f4f39404c327b2f5d3ee4ad</instance_id>
+        <instance_name>microsoftdev</instance_name>
+        <name>sys_app_module_955ce60edb9280907409f337689619b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Powershell Script Execution">195ec3051b17f3000c1377bc1d4bcbe3</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Configuration Items</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_micr5_scriptexe_ci_map</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-14 01:01:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>955ce60edb9280907409f337689619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Configuration Items</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_update_name>sys_app_module_955ce60edb9280907409f337689619b9</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-14 01:01:16</sys_updated_on>
+        <timeline_page/>
+        <title>Script Configuration Items</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>-314544268</payload_hash>
+        <record_name>Script Configuration Items</record_name>
+        <reverted_from/>
+        <source>af7f5b36dbea88d4b720f33768961957</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-28 22:55:15</sys_created_on>
+        <sys_id>308f9f36dbea88d4b720f337689619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fee5db2800000001</sys_recorded_at>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-28 22:55:15</sys_updated_on>
+        <type>Module</type>
+        <update_guid>fc8f9f36eaea88d484366f251281bfe6</update_guid>
+        <update_guid_history>fc8f9f36eaea88d484366f251281bfe6:-314544268</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2020-01-29 12:41:01">006a889bdbe6ccd4b720f3376896197c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-29 20:41:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>226ea226844342d0890a7c9f81b58884</sys_id>
+        <sys_metadata>955ce60edb9280907409f337689619b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Configuration Items</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_scope_delete display_value="">3e0eef3de88f4b00b828da12a7677840</sys_scope_delete>
+        <sys_update_name>sys_app_module_955ce60edb9280907409f337689619b9</sys_update_name>
+        <sys_update_version display_value="sys_app_module_955ce60edb9280907409f337689619b9">308f9f36dbea88d4b720f337689619e7</sys_update_version>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-29 20:41:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
