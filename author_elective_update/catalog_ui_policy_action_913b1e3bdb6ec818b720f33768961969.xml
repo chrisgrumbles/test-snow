@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Script Execution: Manage Script Permissions">18460c87db66c8d4b720f33768961941</catalog_item>
+        <catalog_variable>IO:9f49c843dba6c8d4b720f337689619f0</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-31 20:30:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>913b1e3bdb6ec818b720f33768961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cred_username</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_913b1e3bdb6ec818b720f33768961969</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-31 20:30:54</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Script Execution: Show/Hide Credential Change Fields">5eaa4887dba6c8d4b720f33768961907</ui_policy>
+        <variable>cred_username</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</application>
+        <file_path/>
+        <instance_id>704407766f4f39404c327b2f5d3ee4ad</instance_id>
+        <instance_name>microsoftdev</instance_name>
+        <name>catalog_ui_policy_action_913b1e3bdb6ec818b720f33768961969</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Script Execution: Manage Script Permissions">18460c87db66c8d4b720f33768961941</catalog_item><catalog_variable>IO:9f49c843dba6c8d4b720f337689619f0</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>chgrum</sys_created_by><sys_created_on>2020-01-31 20:30:54</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>913b1e3bdb6ec818b720f33768961969</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cred_username</sys_name><sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope><sys_update_name>catalog_ui_policy_action_913b1e3bdb6ec818b720f33768961969</sys_update_name><sys_updated_by>chgrum</sys_updated_by><sys_updated_on>2020-01-31 20:30:54</sys_updated_on><table/><ui_policy display_value="Script Execution: Show/Hide Credential Change Fields">5eaa4887dba6c8d4b720f33768961907</ui_policy><variable>cred_username</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>267708315</payload_hash>
+        <record_name>cred_username</record_name>
+        <reverted_from/>
+        <source>478f1b36dbea88d4b720f337689619e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-31 20:30:54</sys_created_on>
+        <sys_id>533b923bdb6ec818b720f33768961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ffd4c9dc80000001</sys_recorded_at>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-31 20:30:54</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>5b3b923b796ec8185dc03aa72d57a140</update_guid>
+        <update_guid_history>5b3b923b796ec8185dc03aa72d57a140:267708315</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2020-01-31 12:31:23">a65bda7bdb6ec818b720f337689619cc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-31 20:31:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>3e03daea665f448094ad484d29a3e100</sys_id>
+        <sys_metadata>913b1e3bdb6ec818b720f33768961969</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cred_username</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_scope_delete display_value="">3e0eef3de88f4b00b828da12a7677840</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_913b1e3bdb6ec818b720f33768961969</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_913b1e3bdb6ec818b720f33768961969">533b923bdb6ec818b720f33768961941</sys_update_version>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-31 20:31:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

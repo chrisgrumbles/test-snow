@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Script Execution: Manage Scripts">18460c87db66c8d4b720f33768961941</sc_cat_item>
+        <sc_category display_value="Self-Service">dcaf3d9e0fdb72c09f7c03bce1050e02</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-29 18:55:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a742b743db62ccd4b720f3376896195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self-Service.Script Execution: Manage Scripts</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_update_name>sc_cat_item_category_a742b743db62ccd4b720f3376896195d</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-29 18:55:51</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</application>
+        <file_path/>
+        <instance_id>704407766f4f39404c327b2f5d3ee4ad</instance_id>
+        <instance_name>microsoftdev</instance_name>
+        <name>sc_cat_item_category_a742b743db62ccd4b720f3376896195d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Script Execution: Manage Scripts">18460c87db66c8d4b720f33768961941</sc_cat_item><sc_category display_value="Self-Service">dcaf3d9e0fdb72c09f7c03bce1050e02</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>chgrum</sys_created_by><sys_created_on>2020-01-29 18:55:51</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>a742b743db62ccd4b720f3376896195d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Self-Service.Script Execution: Manage Scripts</sys_name><sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope><sys_update_name>sc_cat_item_category_a742b743db62ccd4b720f3376896195d</sys_update_name><sys_updated_by>chgrum</sys_updated_by><sys_updated_on>2020-01-29 18:55:51</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>2118696690</payload_hash>
+        <record_name>Self-Service.Script Execution: Manage Scripts</record_name>
+        <reverted_from/>
+        <source>478f1b36dbea88d4b720f337689619e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-29 18:55:51</sys_created_on>
+        <sys_id>6b42b743db62ccd4b720f33768961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ff2a8e05d0000001</sys_recorded_at>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-29 18:55:51</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>6342b7438662ccd446bcccfc8cc3af61</update_guid>
+        <update_guid_history>6342b7438662ccd446bcccfc8cc3af61:2118696690</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2020-01-31 12:22:48">7069d2fbdb2ec818b720f337689619d0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-31 20:22:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>340ec14a5ef348e895f11aef41834b01</sys_id>
+        <sys_metadata>a742b743db62ccd4b720f3376896195d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self-Service.Script Execution: Manage Scripts</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_parent display_value="Script Execution: Manage Script Permissions">18460c87db66c8d4b720f33768961941</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_scope_delete display_value="">3e0eef3de88f4b00b828da12a7677840</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_a742b743db62ccd4b720f3376896195d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_a742b743db62ccd4b720f3376896195d">6b42b743db62ccd4b720f33768961961</sys_update_version>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-31 20:22:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

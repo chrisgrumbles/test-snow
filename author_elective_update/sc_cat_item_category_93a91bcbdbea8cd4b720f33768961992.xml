@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Execute Powershell Script">cf58e3bedb6e88d4b720f337689619f2</sc_cat_item>
+        <sc_category display_value="Self-Service">dcaf3d9e0fdb72c09f7c03bce1050e02</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-29 17:08:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>93a91bcbdbea8cd4b720f33768961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self-Service.Execute Powershell Script</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_update_name>sc_cat_item_category_93a91bcbdbea8cd4b720f33768961992</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-29 17:08:15</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</application>
+        <file_path/>
+        <instance_id>704407766f4f39404c327b2f5d3ee4ad</instance_id>
+        <instance_name>microsoftdev</instance_name>
+        <name>sc_cat_item_category_93a91bcbdbea8cd4b720f33768961992</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Execute Powershell Script">cf58e3bedb6e88d4b720f337689619f2</sc_cat_item><sc_category display_value="Self-Service">dcaf3d9e0fdb72c09f7c03bce1050e02</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>chgrum</sys_created_by><sys_created_on>2020-01-29 17:08:15</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>93a91bcbdbea8cd4b720f33768961992</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Self-Service.Execute Powershell Script</sys_name><sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope><sys_update_name>sc_cat_item_category_93a91bcbdbea8cd4b720f33768961992</sys_update_name><sys_updated_by>chgrum</sys_updated_by><sys_updated_on>2020-01-29 17:08:15</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1792496875</payload_hash>
+        <record_name>Self-Service.Execute Powershell Script</record_name>
+        <reverted_from/>
+        <source>478f1b36dbea88d4b720f337689619e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-29 17:08:15</sys_created_on>
+        <sys_id>5ba91bcbdbea8cd4b720f33768961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ff2465ca80000001</sys_recorded_at>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-29 17:08:15</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>53a91bcbedea8cd4583c6769d30e2a95</update_guid>
+        <update_guid_history>53a91bcbedea8cd4583c6769d30e2a95:-1792496875</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2020-01-31 12:22:24">f649d6bbdb2ec818b720f337689619c1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-01-31 20:22:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>74cdf96b28874c309a2046b49b432900</sys_id>
+        <sys_metadata>93a91bcbdbea8cd4b720f33768961992</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self-Service.Execute Powershell Script</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_parent display_value="Execute Powershell Script">cf58e3bedb6e88d4b720f337689619f2</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_scope_delete display_value="">3e0eef3de88f4b00b828da12a7677840</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_93a91bcbdbea8cd4b720f33768961992</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_93a91bcbdbea8cd4b720f33768961992">5ba91bcbdbea8cd4b720f33768961995</sys_update_version>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-01-31 20:22:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

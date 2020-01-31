@@ -9,7 +9,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p>Execute a powershell script on a remote server, or run a script for an existing incident</p>]]></description>
+        <description><![CDATA[<p>Execute a powershell script on a remote server, or run a script for an existing incident. For more instructions, please see our <a title="wiki" href="https://microsoftit.visualstudio.com/OneITVSO/_wiki/wikis/OneITVSO.wiki/6368/Script-Execution-Platform" target="_blank" rel="noopener noreferrer nofollow">wiki</a>.</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <group/>
@@ -58,7 +58,7 @@
         <sys_created_on>2020-01-28 23:35:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>cf58e3bedb6e88d4b720f337689619f2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Execute Powershell Script</sys_name>
         <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
         <sys_policy/>
@@ -66,7 +66,7 @@
         <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
         <sys_update_name>sc_cat_item_cf58e3bedb6e88d4b720f337689619f2</sys_update_name>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 01:44:18</sys_updated_on>
+        <sys_updated_on>2020-01-31 20:39:00</sys_updated_on>
         <template/>
         <type>item</type>
         <u_accepted_file_types/>
