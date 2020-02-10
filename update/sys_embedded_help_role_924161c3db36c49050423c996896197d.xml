@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="sn_dd_scriptexecutionplatform_integrations_rc_01" name="sn_dd_scriptexecutionplatform_integrations_rc_01">5e4161c3db36c49050423c996896197a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-02-10 18:37:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>924161c3db36c49050423c996896197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5e4161c3db36c49050423c996896197a</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_update_name>sys_embedded_help_role_924161c3db36c49050423c996896197d</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-02-10 18:37:56</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
