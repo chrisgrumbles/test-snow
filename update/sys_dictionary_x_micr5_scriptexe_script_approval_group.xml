@@ -54,7 +54,7 @@
         <sys_created_by>chgrum</sys_created_by>
         <sys_created_on>2019-09-04 16:58:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>2b7f1b36dbea88d4b720f337689619a4</sys_id>
+        <sys_id>e29a0689dbbe0c10b720f3376896190c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Approval Group</sys_name>
         <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
         <sys_update_name>sys_dictionary_x_micr5_scriptexe_script_approval_group</sys_update_name>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-28 22:55:13</sys_updated_on>
+        <sys_updated_on>2020-02-04 16:30:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -43,7 +43,7 @@
         <update_guid_history>af42b743e762ccd4b47a67c96a939968:567790173</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2020-01-31 12:22:48">f069d2fbdb2ec818b720f337689619c9</sys_audit_delete>
+        <sys_audit_delete display_value="">f069d2fbdb2ec818b720f337689619c9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>chgrum</sys_created_by>
         <sys_created_on>2020-01-31 20:22:48</sys_created_on>

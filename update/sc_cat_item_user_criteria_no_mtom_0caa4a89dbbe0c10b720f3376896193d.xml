@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Execute Powershell Script">cf58e3bedb6e88d4b720f337689619f2</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-02-04 16:30:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0caa4a89dbbe0c10b720f3376896193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Execute Powershell Script.SNC External</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_0caa4a89dbbe0c10b720f3376896193d</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-02-04 16:30:43</sys_updated_on>
+        <user_criteria display_value="SNC External">46ea0fe0db39638050423c996896190f</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>

@@ -70,7 +70,7 @@
         <update_guid_history>aac94c9329e6ccd438d0cec38afe14ac:-716481655,2b5808d7eaa6ccd4d989d4a4716a4496:898292744,4b72008b5426c8d48c6af129a6307fe3:165739970,f48f9f3632ea88d424a800b1930215e9:-370087015</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2020-01-29 12:41:01">086a889bdbe6ccd4b720f33768961984</sys_audit_delete>
+        <sys_audit_delete display_value="">086a889bdbe6ccd4b720f33768961984</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>chgrum</sys_created_by>
         <sys_created_on>2020-01-29 20:41:01</sys_created_on>
