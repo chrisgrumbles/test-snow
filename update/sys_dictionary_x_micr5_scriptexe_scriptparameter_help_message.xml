@@ -34,7 +34,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>121</max_length>
+        <max_length>1000</max_length>
         <name>x_micr5_scriptexe_scriptparameter</name>
         <next_element/>
         <primary>false</primary>
@@ -55,7 +55,7 @@
         <sys_created_on>2019-08-14 22:19:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>529ac289dbbe0c10b720f33768961980</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Help Message</sys_name>
         <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
         <sys_policy/>
@@ -63,7 +63,7 @@
         <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
         <sys_update_name>sys_dictionary_x_micr5_scriptexe_scriptparameter_help_message</sys_update_name>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-02-04 16:30:41</sys_updated_on>
+        <sys_updated_on>2020-02-27 18:10:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

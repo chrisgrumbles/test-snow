@@ -31,12 +31,12 @@
         <sys_created_by>chgrum</sys_created_by>
         <sys_created_on>2020-02-26 17:59:20</sys_created_on>
         <sys_id>68e1b304db57c814b720f33768961919</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-02-26 18:02:05</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>jefregea</sys_updated_by>
+        <sys_updated_on>2020-02-27 17:55:49</sys_updated_on>
         <table>sc_req_item</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Catalog Item: Execute Powershell Script">2f73404bdb26c8d4b720f3376896195d</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
