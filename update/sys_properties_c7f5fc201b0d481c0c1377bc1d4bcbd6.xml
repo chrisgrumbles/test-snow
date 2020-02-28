@@ -4,23 +4,23 @@
         <description>App Secret for the ScriptExecutionAppId</description>
         <ignore_cache>false</ignore_cache>
         <is_private>true</is_private>
-        <name>x_micr5_scriptexe.ScriptExecutionAppSecret</name>
+        <name>x_micr5_scriptexe.ScriptExecutionAppSecret.npe</name>
         <read_roles/>
-        <suffix>ScriptExecutionAppSecret</suffix>
+        <suffix>ScriptExecutionAppSecret.npe</suffix>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>chgrum</sys_created_by>
         <sys_created_on>2019-11-07 21:15:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c7f5fc201b0d481c0c1377bc1d4bcbd6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_micr5_scriptexe.ScriptExecutionAppSecret</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_micr5_scriptexe.ScriptExecutionAppSecret.npe</sys_name>
         <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
         <sys_update_name>sys_properties_c7f5fc201b0d481c0c1377bc1d4bcbd6</sys_update_name>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2019-11-08 00:08:14</sys_updated_on>
+        <sys_updated_on>2020-02-27 23:53:28</sys_updated_on>
         <type>password2</type>
         <value>{{dflt-gpaes}}lGdrDDp0CnGwaReVJSl33lY/Vo8pBEbFTGi8swA1jV5YJ6AleHZuOYLkeeOB+QqG</value>
         <write_roles/>

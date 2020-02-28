@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":[],"activities":{"50cc004fdba6c8d4b720f33768961968":"017c040fdba6c8d4b720f33768961997","03ac888fdba6c8d4b720f33768961998":"017c040fdba6c8d4b720f33768961997"},"stages":{"017c040fdba6c8d4b720f33768961997":{"duration":"1 Day","order":120,"stageId":"017c040fdba6c8d4b720f33768961997","name":"Fulfillment","value":"fulfillment"}},"ends":["857c040fdba6c8d4b720f33768961994"]}</activity_stages>
+        <activity_stages>{"stages":{"c21e42e8db1b081450423c9968961912":{"duration":"1 Day","stageId":"c21e42e8db1b081450423c9968961912","order":120,"name":"Fulfillment","value":"fulfillment"}},"activities":{"8a1e8ae8db1b081450423c99689619da":"c21e42e8db1b081450423c9968961912","c61e8ae8db1b081450423c99689619d7":"c21e42e8db1b081450423c9968961912"},"subflows":[],"ends":["0a1e8ae8db1b081450423c99689619db"]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -9,10 +9,10 @@
         <condition/>
         <condition_type/>
         <description>Submit Service Portal Form: Script Execution: Update Script Permissions</description>
-        <expected_sequences>0d7c040fdba6c8d4b720f33768961992,03ac888fdba6c8d4b720f33768961998,50cc004fdba6c8d4b720f33768961968,857c040fdba6c8d4b720f33768961994</expected_sequences>
+        <expected_sequences>4a1e8ae8db1b081450423c99689619d9,c61e8ae8db1b081450423c99689619d7,8a1e8ae8db1b081450423c99689619da,0a1e8ae8db1b081450423c99689619db</expected_sequences>
         <expected_time/>
         <expected_time_type/>
-        <full_sequences>0d7c040fdba6c8d4b720f33768961992,03ac888fdba6c8d4b720f33768961998,50cc004fdba6c8d4b720f33768961968,857c040fdba6c8d4b720f33768961994</full_sequences>
+        <full_sequences>4a1e8ae8db1b081450423c99689619d9,c61e8ae8db1b081450423c99689619d7,8a1e8ae8db1b081450423c99689619da,0a1e8ae8db1b081450423c99689619db</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Catalog Item: Update Script Permissions</name>
@@ -27,16 +27,16 @@
         <schedule/>
         <stage_field>stage</stage_field>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">0d7c040fdba6c8d4b720f33768961992</start>
+        <start display_value="Begin">4a1e8ae8db1b081450423c99689619d9</start>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:11:36</sys_created_on>
-        <sys_id>135c0c4fdba6c8d4b720f33768961947</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>4e1e42e8db1b081450423c996896190f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 19:04:56</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:16:29</sys_updated_on>
         <table>sc_req_item</table>
         <timezone/>
-        <validated>true</validated>
+        <validated>false</validated>
         <workflow display_value="Catalog Item: Update Script Permissions">8d7c040fdba6c8d4b720f33768961991</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -70,78 +70,78 @@
         <ola>1970-01-01 00:00:00</ola>
         <order>1100</order>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:11:36</sys_created_on>
-        <sys_id>897c040fdba6c8d4b720f33768961996</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>0e1e42e8db1b081450423c9968961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:11:36</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
         <value>complete</value>
-        <workflow_version display_value="Catalog Item: Update Script Permissions">135c0c4fdba6c8d4b720f33768961947</workflow_version>
+        <workflow_version display_value="Catalog Item: Update Script Permissions">4e1e42e8db1b081450423c996896190f</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Delivery</name>
         <ola>1970-01-03 00:00:00</ola>
         <order>140</order>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:11:36</sys_created_on>
-        <sys_id>817c040fdba6c8d4b720f33768961997</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>8a1e42e8db1b081450423c9968961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:11:36</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
         <value>delivery</value>
-        <workflow_version display_value="Catalog Item: Update Script Permissions">135c0c4fdba6c8d4b720f33768961947</workflow_version>
+        <workflow_version display_value="Catalog Item: Update Script Permissions">4e1e42e8db1b081450423c996896190f</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Fulfillment</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>120</order>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:11:36</sys_created_on>
-        <sys_id>017c040fdba6c8d4b720f33768961997</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>c21e42e8db1b081450423c9968961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:11:36</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
         <value>fulfillment</value>
-        <workflow_version display_value="Catalog Item: Update Script Permissions">135c0c4fdba6c8d4b720f33768961947</workflow_version>
+        <workflow_version display_value="Catalog Item: Update Script Permissions">4e1e42e8db1b081450423c996896190f</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Cancelled</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>1000</order>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:11:36</sys_created_on>
-        <sys_id>057c040fdba6c8d4b720f33768961996</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>861e42e8db1b081450423c9968961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:11:36</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
         <value>Request Cancelled</value>
-        <workflow_version display_value="Catalog Item: Update Script Permissions">135c0c4fdba6c8d4b720f33768961947</workflow_version>
+        <workflow_version display_value="Catalog Item: Update Script Permissions">4e1e42e8db1b081450423c996896190f</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Approved</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>90</order>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:11:36</sys_created_on>
-        <sys_id>0d7c040fdba6c8d4b720f33768961996</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>0a1e42e8db1b081450423c9968961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:11:36</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
         <value>request_approved</value>
-        <workflow_version display_value="Catalog Item: Update Script Permissions">135c0c4fdba6c8d4b720f33768961947</workflow_version>
+        <workflow_version display_value="Catalog Item: Update Script Permissions">4e1e42e8db1b081450423c996896190f</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Waiting for Approval</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>100</order>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:11:36</sys_created_on>
-        <sys_id>8d7c040fdba6c8d4b720f33768961996</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>4e1e8ae8db1b081450423c99689619d6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:11:36</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
         <value>waiting_for_approval</value>
-        <workflow_version display_value="Catalog Item: Update Script Permissions">135c0c4fdba6c8d4b720f33768961947</workflow_version>
+        <workflow_version display_value="Catalog Item: Update Script Permissions">4e1e42e8db1b081450423c996896190f</workflow_version>
     </wf_stage>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -159,21 +159,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:11:36</sys_created_on>
-        <sys_id>0d7c040fdba6c8d4b720f33768961992</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>4a1e8ae8db1b081450423c99689619d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:11:36</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Catalog Item: Update Script Permissions">135c0c4fdba6c8d4b720f33768961947</workflow_version>
+        <workflow_version display_value="Catalog Item: Update Script Permissions">4e1e42e8db1b081450423c996896190f</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=0d7c040fdba6c8d4b720f33768961992"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4a1e8ae8db1b081450423c99689619d9"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">0d7c040fdba6c8d4b720f33768961992</activity>
+        <activity display_value="Begin">4a1e8ae8db1b081450423c99689619d9</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -187,11 +187,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:11:36</sys_created_on>
-        <sys_id>c97c040fdba6c8d4b720f33768961993</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>c21e8ae8db1b081450423c99689619da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:11:36</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -209,19 +209,19 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:11:36</sys_created_on>
-        <sys_id>857c040fdba6c8d4b720f33768961994</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>0a1e8ae8db1b081450423c99689619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:13:42</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Catalog Item: Update Script Permissions">135c0c4fdba6c8d4b720f33768961947</workflow_version>
+        <workflow_version display_value="Catalog Item: Update Script Permissions">4e1e42e8db1b081450423c996896190f</workflow_version>
         <x>805</x>
         <y>66</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=857c040fdba6c8d4b720f33768961994"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0a1e8ae8db1b081450423c99689619db"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -236,32 +236,32 @@
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Fulfillment">017c040fdba6c8d4b720f33768961997</stage>
+        <stage display_value="Fulfillment">c21e42e8db1b081450423c9968961912</stage>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:12:44</sys_created_on>
-        <sys_id>03ac888fdba6c8d4b720f33768961998</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>c61e8ae8db1b081450423c99689619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:13:29</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Catalog Item: Update Script Permissions">135c0c4fdba6c8d4b720f33768961947</workflow_version>
+        <workflow_version display_value="Catalog Item: Update Script Permissions">4e1e42e8db1b081450423c996896190f</workflow_version>
         <x>122</x>
         <y>16</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=03ac888fdba6c8d4b720f33768961998"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c61e8ae8db1b081450423c99689619d7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>03ac888fdba6c8d4b720f33768961998</document_key>
+        <document_key>c61e8ae8db1b081450423c99689619d7</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:12:45</sys_created_on>
-        <sys_id>edbc808fdba6c8d4b720f3376896198e</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>021e8ae8db1b081450423c99689619d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:12:45</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
         <value>function init() {	&#13;
 	var data = {&#13;
 		script: null,&#13;
@@ -347,15 +347,15 @@ init();&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>03ac888fdba6c8d4b720f33768961998</document_key>
+        <document_key>c61e8ae8db1b081450423c99689619d7</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:12:45</sys_created_on>
-        <sys_id>edbc808fdba6c8d4b720f3376896198e</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>021e8ae8db1b081450423c99689619d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:12:45</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
         <value>function init() {	&#13;
 	var data = {&#13;
 		script: null,&#13;
@@ -440,7 +440,7 @@ init();&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Init">03ac888fdba6c8d4b720f33768961998</activity>
+        <activity display_value="Init">c61e8ae8db1b081450423c99689619d7</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -454,11 +454,11 @@ init();&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:12:45</sys_created_on>
-        <sys_id>edbc808fdba6c8d4b720f3376896198f</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>ce1e8ae8db1b081450423c99689619d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:12:45</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -474,39 +474,39 @@ init();&#13;
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Fulfillment">017c040fdba6c8d4b720f33768961997</stage>
+        <stage display_value="Fulfillment">c21e42e8db1b081450423c9968961912</stage>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:13:17</sys_created_on>
-        <sys_id>50cc004fdba6c8d4b720f33768961968</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>8a1e8ae8db1b081450423c99689619da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:13:30</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:15:53</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Catalog Item: Update Script Permissions">135c0c4fdba6c8d4b720f33768961947</workflow_version>
+        <workflow_version display_value="Catalog Item: Update Script Permissions">4e1e42e8db1b081450423c996896190f</workflow_version>
         <x>304</x>
         <y>15</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=50cc004fdba6c8d4b720f33768961968"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8a1e8ae8db1b081450423c99689619da"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>50cc004fdba6c8d4b720f33768961968</document_key>
+        <document_key>8a1e8ae8db1b081450423c99689619da</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:13:17</sys_created_on>
-        <sys_id>e1dccc4fdba6c8d4b720f337689619e5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>0e1e8ae8db1b081450423c99689619da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:13:17</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:15:53</sys_updated_on>
         <value>var IncAssignmentGroup = "ITSM SWE - Interop"; // ITSM SWE - Interop&#13;
 var RitmStatus = {&#13;
 	closed_complete: 3,&#13;
 	closed_incomplete: 4&#13;
 };&#13;
 &#13;
-&#13;
+var helpers = new x_micr5_scriptexe.ScriptExecutionHelpers();&#13;
 var data = workflow.scratchpad.scriptData;&#13;
 var isSuccess=true;&#13;
 var workNoteUpdate = "Script updated successfully.";&#13;
@@ -514,10 +514,10 @@ if(data.update_creds==true) {&#13;
 	isSuccess=false;&#13;
 	var Encrypter = new GlideEncrypter();&#13;
 &#13;
-	var keyVaultName = gs.getProperty('x_micr5_scriptexe.KeyVaultName').toString();&#13;
-	var clientID = gs.getProperty('x_micr5_scriptexe.ScriptExecutionAppId').toString();&#13;
-	var clientSecret = gs.getProperty('x_micr5_scriptexe.ScriptExecutionAppSecret').toString();&#13;
-	var loginURL = gs.getProperty('microsoft.cas.login.endpoint').toString();&#13;
+	var keyVaultName = helpers.getInstanceTargetedSysProperty('x_micr5_scriptexe.KeyVaultName');&#13;
+	var clientID = helpers.getInstanceTargetedSysProperty('x_micr5_scriptexe.ScriptExecutionAppId');&#13;
+	var clientSecret = helpers.getInstanceTargetedSysProperty('x_micr5_scriptexe.ScriptExecutionAppSecret');&#13;
+	var loginURL = gs.getProperty('microsoft.cas.login.endpoint');&#13;
 &#13;
 &#13;
 &#13;
@@ -576,22 +576,22 @@ if(isSuccess) {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>50cc004fdba6c8d4b720f33768961968</document_key>
+        <document_key>8a1e8ae8db1b081450423c99689619da</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:13:17</sys_created_on>
-        <sys_id>e1dccc4fdba6c8d4b720f337689619e5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>0e1e8ae8db1b081450423c99689619da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:13:17</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:15:53</sys_updated_on>
         <value>var IncAssignmentGroup = "ITSM SWE - Interop"; // ITSM SWE - Interop&#13;
 var RitmStatus = {&#13;
 	closed_complete: 3,&#13;
 	closed_incomplete: 4&#13;
 };&#13;
 &#13;
-&#13;
+var helpers = new x_micr5_scriptexe.ScriptExecutionHelpers();&#13;
 var data = workflow.scratchpad.scriptData;&#13;
 var isSuccess=true;&#13;
 var workNoteUpdate = "Script updated successfully.";&#13;
@@ -599,10 +599,10 @@ if(data.update_creds==true) {&#13;
 	isSuccess=false;&#13;
 	var Encrypter = new GlideEncrypter();&#13;
 &#13;
-	var keyVaultName = gs.getProperty('x_micr5_scriptexe.KeyVaultName').toString();&#13;
-	var clientID = gs.getProperty('x_micr5_scriptexe.ScriptExecutionAppId').toString();&#13;
-	var clientSecret = gs.getProperty('x_micr5_scriptexe.ScriptExecutionAppSecret').toString();&#13;
-	var loginURL = gs.getProperty('microsoft.cas.login.endpoint').toString();&#13;
+	var keyVaultName = helpers.getInstanceTargetedSysProperty('x_micr5_scriptexe.KeyVaultName');&#13;
+	var clientID = helpers.getInstanceTargetedSysProperty('x_micr5_scriptexe.ScriptExecutionAppId');&#13;
+	var clientSecret = helpers.getInstanceTargetedSysProperty('x_micr5_scriptexe.ScriptExecutionAppSecret');&#13;
+	var loginURL = gs.getProperty('microsoft.cas.login.endpoint');&#13;
 &#13;
 &#13;
 &#13;
@@ -660,7 +660,7 @@ if(isSuccess) {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Update KeyVault">50cc004fdba6c8d4b720f33768961968</activity>
+        <activity display_value="Update KeyVault">8a1e8ae8db1b081450423c99689619da</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -674,58 +674,58 @@ if(isSuccess) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:13:17</sys_created_on>
-        <sys_id>2ddccc4fdba6c8d4b720f337689619e5</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>421e8ae8db1b081450423c99689619db</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:13:17</sys_updated_on>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">c97c040fdba6c8d4b720f33768961993</condition>
-        <from display_value="Begin">0d7c040fdba6c8d4b720f33768961992</from>
+        <condition display_value="Always">421e8ae8db1b081450423c99689619db</condition>
+        <from display_value="Update KeyVault">8a1e8ae8db1b081450423c99689619da</from>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:11:36</sys_created_on>
-        <sys_id>417c040fdba6c8d4b720f33768961995</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:12:46</sys_updated_on>
-        <to display_value="Init">03ac888fdba6c8d4b720f33768961998</to>
-    </wf_transition>
-    <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">2ddccc4fdba6c8d4b720f337689619e5</condition>
-        <from display_value="Update KeyVault">50cc004fdba6c8d4b720f33768961968</from>
-        <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:13:18</sys_created_on>
-        <sys_id>69dcc48fdba6c8d4b720f33768961946</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>461e8ae8db1b081450423c99689619dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:13:18</sys_updated_on>
-        <to display_value="End">857c040fdba6c8d4b720f33768961994</to>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
+        <to display_value="End">0a1e8ae8db1b081450423c99689619db</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">edbc808fdba6c8d4b720f3376896198f</condition>
-        <from display_value="Init">03ac888fdba6c8d4b720f33768961998</from>
+        <condition display_value="Always">ce1e8ae8db1b081450423c99689619d8</condition>
+        <from display_value="Init">c61e8ae8db1b081450423c99689619d7</from>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:12:46</sys_created_on>
-        <sys_id>bdbc808fdba6c8d4b720f337689619ba</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>ca1e8ae8db1b081450423c99689619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:13:18</sys_updated_on>
-        <to display_value="Update KeyVault">50cc004fdba6c8d4b720f33768961968</to>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
+        <to display_value="Update KeyVault">8a1e8ae8db1b081450423c99689619da</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">c21e8ae8db1b081450423c99689619da</condition>
+        <from display_value="Begin">4a1e8ae8db1b081450423c99689619d9</from>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>ce1e8ae8db1b081450423c99689619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
+        <to display_value="Init">c61e8ae8db1b081450423c99689619d7</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2020-01-29 02:11:36</sys_created_on>
-        <sys_id>c57c040fdba6c8d4b720f33768961991</sys_id>
+        <sys_created_on>2020-02-28 00:00:17</sys_created_on>
+        <sys_id>821e42e8db1b081450423c9968961910</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-29 02:11:36</sys_updated_on>
-        <workflow_version display_value="Catalog Item: Update Script Permissions">135c0c4fdba6c8d4b720f33768961947</workflow_version>
+        <sys_updated_on>2020-02-28 00:00:17</sys_updated_on>
+        <workflow_version display_value="Catalog Item: Update Script Permissions">4e1e42e8db1b081450423c996896190f</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=8d7c040fdba6c8d4b720f33768961991^sys_id!=135c0c4fdba6c8d4b720f33768961947">
+    <wf_workflow_version action="update_multiple" query="workflow=8d7c040fdba6c8d4b720f33768961991^sys_id!=4e1e42e8db1b081450423c996896190f">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
