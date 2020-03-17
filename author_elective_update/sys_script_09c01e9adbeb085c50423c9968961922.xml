@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>false</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>live_message</collection>
+        <condition/>
+        <description>Live message (chat) records that are referenced by a live_group_profile are added to the referenced interaction record</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Append Live Message (Chat)-&gt;Interaction</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-03-16 21:10:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>09c01e9adbeb085c50423c9968961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Append Live Message (Chat)-&gt;Interaction</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_update_name>sys_script_09c01e9adbeb085c50423c9968961922</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-03-16 21:10:04</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=09c01e9adbeb085c50423c9968961922"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</application>
+        <file_path/>
+        <instance_id>704407766f4f39404c327b2f5d3ee4ad</instance_id>
+        <instance_name>microsoftdev</instance_name>
+        <name>sys_script_09c01e9adbeb085c50423c9968961922</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;live_message&lt;/collection&gt;&lt;condition/&gt;&lt;description&gt;Live message (chat) records that are referenced by a live_group_profile are added to the referenced interaction record&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Append Live Message (Chat)-&amp;gt;Interaction&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chgrum&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-16 21:10:04&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;09c01e9adbeb085c50423c9968961922&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Append Live Message (Chat)-&amp;gt;Interaction&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe"&gt;98e48f851bd3f3000c1377bc1d4bcb29&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Script Execution Platform"&gt;98e48f851bd3f3000c1377bc1d4bcb29&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_09c01e9adbeb085c50423c9968961922&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;chgrum&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-16 21:10:04&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=09c01e9adbeb085c50423c9968961922"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1281397112</payload_hash>
+        <record_name>Append Live Message (Chat)-&gt;Interaction</record_name>
+        <reverted_from/>
+        <source>e9a33748db57c814b720f337689619a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-03-16 21:10:04</sys_created_on>
+        <sys_id>08c35256db2f085c50423c996896199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170e52ea7480000001</sys_recorded_at>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-03-16 21:10:04</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>ccc35256c02f085c405488d130520b99</update_guid>
+        <update_guid_history>ccc35256c02f085c405488d130520b99:1281397112</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2020-03-16 14:42:50">484bde9edb6f085c50423c9968961998</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-03-16 21:42:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>2c544e2636e442ecb8647c724c63ac91</sys_id>
+        <sys_metadata>09c01e9adbeb085c50423c9968961922</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Append Live Message (Chat)-&gt;Interaction</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_parent display_value="Live Message">1a1e93b26f033100c73e8e82ad3ee495</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_scope_delete display_value="">3e0eef3de88f4b00b828da12a7677840</sys_scope_delete>
+        <sys_update_name>sys_script_09c01e9adbeb085c50423c9968961922</sys_update_name>
+        <sys_update_version display_value="sys_script_09c01e9adbeb085c50423c9968961922">08c35256db2f085c50423c996896199a</sys_update_version>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-03-16 21:42:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
