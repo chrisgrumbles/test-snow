@@ -12,6 +12,7 @@
         <description><![CDATA[<p>Execute a powershell script on a remote server, or run a script for an existing incident. For more instructions, please see our <a title="wiki" href="https://microsoftit.visualstudio.com/OneITVSO/_wiki/wikis/OneITVSO.wiki/6368/Script-Execution-Platform" target="_blank" rel="noopener noreferrer nofollow">wiki</a>.</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
+        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>

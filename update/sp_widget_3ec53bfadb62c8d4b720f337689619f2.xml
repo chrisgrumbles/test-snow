@@ -23,7 +23,7 @@
 }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
-        <description/>
+        <description>For Script Execution Platform - Generates a list of fields from a table.</description>
         <docs/>
         <field_list/>
         <has_preview>false</has_preview>
@@ -34,7 +34,7 @@
  }]]></link>
         <name>Dynamic Powershell Fields</name>
         <option_schema/>
-        <public>false</public>
+        <public>true</public>
         <roles/>
         <script><![CDATA[(function() {
 	var sourceFieldName = "script";
@@ -89,7 +89,7 @@
         <sys_created_on>2020-01-29 00:34:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3ec53bfadb62c8d4b720f337689619f2</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Dynamic Powershell Fields</sys_name>
         <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
         <sys_policy/>
@@ -97,7 +97,7 @@
         <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
         <sys_update_name>sp_widget_3ec53bfadb62c8d4b720f337689619f2</sys_update_name>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-01-30 01:25:41</sys_updated_on>
+        <sys_updated_on>2020-04-01 20:18:36</sys_updated_on>
         <template><![CDATA[<div class="">
  <div class="row form-group h4" ng-if="c.data.scriptParameters.length > 0">Script Parameters:</div>  
  <div class="" ng-repeat="scriptParam in c.data.scriptParameters">
@@ -121,12 +121,10 @@
        <div>
          <label for="{{scriptParam.id}}" class="field-label">
            <input id="{{scriptParam.id}}" name="{{scriptParam.id}}" type="{{scriptParam.htmlFieldType}}" ng-model="scriptParam.value" ng-change="c.updateTargetField();" class="{{scriptParam.cssClass}}" />
-           <span style='margin-left: 1em;'>{{scriptParam.display_name}}</span>           
-         <div>           	
-           <span ng-if="scriptParam.help_message!=null" class="helpMessage field-label">
+           <span style='margin-left: 1em;'>{{scriptParam.display_name}}</span>                   	           
+           <span ng-if="scriptParam.help_message!=null" class="helpMessage field-label"  style="margin-top: 0.1em;">
              <br/>{{scriptParam.help_message}}
            </span>
-         </div>
        </div>
      </div> <!-- checkbox -->
 </div>]]></template>
