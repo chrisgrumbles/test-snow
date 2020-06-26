@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2019-11-08 22:33:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>47b11ab4db0984501bee6572ca9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_micr5_scriptexe_script.itil</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_security_acl display_value="">65fa82bcdb4584501bee6572ca961972</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_47b11ab4db0984501bee6572ca9619fa</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2019-11-08 22:33:59</sys_updated_on>
+        <sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</application>
+        <file_path/>
+        <instance_id>704407766f4f39404c327b2f5d3ee4ad</instance_id>
+        <instance_name>microsoftdev</instance_name>
+        <name>sys_security_acl_role_47b11ab4db0984501bee6572ca9619fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>chgrum</sys_created_by><sys_created_on>2019-11-08 22:33:59</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>47b11ab4db0984501bee6572ca9619fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_micr5_scriptexe_script.itil</sys_name><sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope><sys_security_acl display_value="">65fa82bcdb4584501bee6572ca961972</sys_security_acl><sys_update_name>sys_security_acl_role_47b11ab4db0984501bee6572ca9619fa</sys_update_name><sys_updated_by>chgrum</sys_updated_by><sys_updated_on>2019-11-08 22:33:59</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1197324371</payload_hash>
+        <record_name>x_micr5_scriptexe_script.itil</record_name>
+        <reverted_from/>
+        <source>17bec710db211010b720f337689619fe</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2020-06-18 06:25:31</sys_created_on>
+        <sys_id>c9efa38fdbad1014b720f337689619f6</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>172c61a97780000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>89efa38fa5ad101408f7f04bbc1007f6</update_guid>
+        <update_guid_history>89efa38fa5ad101408f7f04bbc1007f6:-1197324371</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2020-06-26 14:53:40">4defa38fdbad1014b720f337689619f8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-06-26 21:53:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>070f9c774f0643808061be79616e4000</sys_id>
+        <sys_metadata>47b11ab4db0984501bee6572ca9619fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_micr5_scriptexe_script.itil</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_scope_delete display_value="">3e0eef3de88f4b00b828da12a7677840</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_47b11ab4db0984501bee6572ca9619fa</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_47b11ab4db0984501bee6572ca9619fa">c9efa38fdbad1014b720f337689619f6</sys_update_version>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-06-26 21:53:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

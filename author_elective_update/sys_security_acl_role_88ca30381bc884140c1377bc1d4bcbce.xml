@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2019-09-19 23:10:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>88ca30381bc884140c1377bc1d4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_micr5_scriptexe_ci_map.x_micr5_scriptexe.ci_map_user</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_security_acl display_value="">b7ba30381bc884140c1377bc1d4bcbc8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_88ca30381bc884140c1377bc1d4bcbce</sys_update_name>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2019-09-19 23:10:34</sys_updated_on>
+        <sys_user_role display_value="x_micr5_scriptexe.ci_map_user" name="x_micr5_scriptexe.ci_map_user">1fba30381bc884140c1377bc1d4bcba7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</application>
+        <file_path/>
+        <instance_id>704407766f4f39404c327b2f5d3ee4ad</instance_id>
+        <instance_name>microsoftdev</instance_name>
+        <name>sys_security_acl_role_88ca30381bc884140c1377bc1d4bcbce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>chgrum</sys_created_by><sys_created_on>2019-09-19 23:10:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>88ca30381bc884140c1377bc1d4bcbce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_micr5_scriptexe_ci_map.x_micr5_scriptexe.ci_map_user</sys_name><sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope><sys_security_acl display_value="">b7ba30381bc884140c1377bc1d4bcbc8</sys_security_acl><sys_update_name>sys_security_acl_role_88ca30381bc884140c1377bc1d4bcbce</sys_update_name><sys_updated_by>chgrum</sys_updated_by><sys_updated_on>2019-09-19 23:10:34</sys_updated_on><sys_user_role display_value="x_micr5_scriptexe.ci_map_user" name="x_micr5_scriptexe.ci_map_user">1fba30381bc884140c1377bc1d4bcba7</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>2045518129</payload_hash>
+        <record_name>x_micr5_scriptexe_ci_map.x_micr5_scriptexe.ci_map_user</record_name>
+        <reverted_from/>
+        <source>17bec710db211010b720f337689619fe</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2020-06-18 06:25:31</sys_created_on>
+        <sys_id>c8a0ffc3dbed1014b720f3376896198e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>172c61a97780000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>88a0ffc396ed1014b0e9d3aa79e8478e</update_guid>
+        <update_guid_history>88a0ffc396ed1014b0e9d3aa79e8478e:2045518129</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2020-06-26 14:56:52">4ca0ffc3dbed1014b720f33768961990</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chgrum</sys_created_by>
+        <sys_created_on>2020-06-26 21:56:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>211446eb3bbf4194bf187311e2a50510</sys_id>
+        <sys_metadata>88ca30381bc884140c1377bc1d4bcbce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_micr5_scriptexe_ci_map.x_micr5_scriptexe.ci_map_user</sys_name>
+        <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
+        <sys_scope_delete display_value="">3e0eef3de88f4b00b828da12a7677840</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_88ca30381bc884140c1377bc1d4bcbce</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_88ca30381bc884140c1377bc1d4bcbce">c8a0ffc3dbed1014b720f3376896198e</sys_update_version>
+        <sys_updated_by>chgrum</sys_updated_by>
+        <sys_updated_on>2020-06-26 21:56:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

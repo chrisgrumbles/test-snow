@@ -13,21 +13,21 @@
         <name>Script Execution Platform</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
-        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <runtime_access_tracking/>
         <scope>x_micr5_scriptexe</scope>
-        <scoped_administration>false</scoped_administration>
+        <scoped_administration>true</scoped_administration>
         <short_description/>
         <source>x_micr5_scriptexe</source>
-        <store_correlation_id>REPOAPP0000210230</store_correlation_id>
+        <store_correlation_id/>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
-        <sys_created_by>chgrum</sys_created_by>
-        <sys_created_on>2019-08-14 21:05:29</sys_created_on>
+        <sys_created_by>v-brkeib</sys_created_by>
+        <sys_created_on>2020-03-03 20:32:12</sys_created_on>
         <sys_id>98e48f851bd3f3000c1377bc1d4bcb29</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-04-02 18:48:21</sys_updated_on>
+        <sys_updated_on>2020-06-26 22:23:27</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
