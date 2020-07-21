@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
     <sys_user_role action="INSERT_OR_UPDATE">
-        <assignable_by display_value="x_micr5_scriptexe.admin" name="x_micr5_scriptexe.admin">95ee634bdbad1014b720f33768961998</assignable_by>
+        <assignable_by/>
         <can_delegate>true</can_delegate>
-        <description>Script Execution Platform Users are allowed to execute scripts</description>
+        <description/>
         <elevated_privilege>false</elevated_privilege>
         <encryption_context/>
         <grantable>true</grantable>
@@ -16,7 +16,7 @@
         <sys_created_on>2019-08-14 21:46:44</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3c5e83811b17f3000c1377bc1d4bcbc4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_micr5_scriptexe.script_user</sys_name>
         <sys_package display_value="Script Execution Platform" source="x_micr5_scriptexe">98e48f851bd3f3000c1377bc1d4bcb29</sys_package>
         <sys_policy/>
@@ -24,6 +24,6 @@
         <sys_scope display_value="Script Execution Platform">98e48f851bd3f3000c1377bc1d4bcb29</sys_scope>
         <sys_update_name>sys_user_role_3c5e83811b17f3000c1377bc1d4bcbc4</sys_update_name>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-06-26 22:00:28</sys_updated_on>
+        <sys_updated_on>2019-08-14 21:46:44</sys_updated_on>
     </sys_user_role>
 </record_update>
