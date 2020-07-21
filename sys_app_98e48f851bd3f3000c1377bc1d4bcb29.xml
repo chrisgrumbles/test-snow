@@ -15,7 +15,7 @@
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking/>
         <scope>x_micr5_scriptexe</scope>
-        <scoped_administration>true</scoped_administration>
+        <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>x_micr5_scriptexe</source>
         <store_correlation_id/>
@@ -27,12 +27,12 @@
         <sys_id>98e48f851bd3f3000c1377bc1d4bcb29</sys_id>
         <sys_mod_count>12</sys_mod_count>
         <sys_updated_by>chgrum</sys_updated_by>
-        <sys_updated_on>2020-06-26 22:23:27</sys_updated_on>
+        <sys_updated_on>2020-07-21 17:24:38</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.2.6</version>
+        <version>1.2.7</version>
     </sys_app>
 </record_update>
